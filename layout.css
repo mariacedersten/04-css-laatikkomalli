@@ -1,0 +1,91 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 1rem;
+  font-size: 1.6rem;
+}
+section {
+  background-color: #bbddee;
+  padding: 1rem;
+}
+
+section,
+h1,
+h2,
+h3,
+p,
+pre,
+ul {
+  margin-block-end: 1rem;
+}
+h1 {
+  font-weight: 700;
+}
+h2 {
+}
+h3 {
+}
+p {
+}
+pre {
+}
+ul {
+}
+ul li {
+}
+
+/* section.toka kuvan muotoilu */
+.small-left-top {
+  max-width: 100%;
+  width: 10rem;
+  float: left;
+  background-color: white;
+  margin: -1rem 2 rem 2 rem -1rem;
+}
+.small-left-top img {
+  max-width: 10rem;
+}
+/* Class-tyyppiset säännöt*/
+
+.iso {
+  float: left;
+  font-size: 500%;
+  width: 10rem;
+  text-align: center;
+  padding: 0.2rem 0.2rem 0;
+  background-color: #568;
+  color: white;
+  margin: -1rem 2rem 1rem -1rem;
+  padding: 1rem 1rem 2rem;
+  border-block-end: 1.5rem white solid;
+  border-inline-end: 1.5rem white solid;
+}
+.banner-left {
+  float: left;
+  width: 100px;
+  height: 70px;
+  text-align: center;
+  background: white;
+  color: black;
+  border: solid black 1px;
+  border-width: 0 1px 1px 0;
+  padding: 0 10px 5px 0;
+  margin: -1px 25px 10px -1px;
+}
+.banner-right {
+  float: right;
+  width: 25%;
+  text-align: left;
+  font-size: 140%;
+  font-weight: bold;
+  font-style: italic;
+  padding: 1em;
+  text-indent: -0.5em;
+  background: white;
+  color: black;
+  border: solid black 1px;
+  border-width: 1px 0 1px 1px;
+  margin: 0.2em -1px 0.2em 0.5em;
+}

@@ -30,8 +30,7 @@ Of course, if one is floating elements, then one can float anything, not just im
 
 For that matter, why restrict yourself to floating things into the corner of the box? How about going straight to the right or left from within the block? 
 
-"Better to stick to what's needed." 
-It's the same basic principle as before, only this time we need to draw three of the borders and only pull the float one pixel to the left. We could keep pulling it one pixel upward as well, but that's no necessary here and could (in theory) lead to complications. Better to stick to what's needed. Again, any element could be floated, so you could float links for further reading, more decorative images like folder tabs, a list of short ideas or points that are related to the main text, a table of figures, or the familiar "pull quote" style of taking a short phrase in the text and repeating it in larger text. Like we see here. 
+"Better to stick to what's needed." It's the same basic principle as before, only this time we need to draw three of the borders and only pull the float one pixel to the left. We could keep pulling it one pixel upward as well, but that's no necessary here and could (in theory) lead to complications. Better to stick to what's needed. Again, any element could be floated, so you could float links for further reading, more decorative images like folder tabs, a list of short ideas or points that are related to the main text, a table of figures, or the familiar "pull quote" style of taking a short phrase in the text and repeating it in larger text. Like we see here. 
 
    div#punch3b {float: right; width: 25%; text-align: left; 
    font-size: 140%; font-weight: bold; font-style: italic; 
