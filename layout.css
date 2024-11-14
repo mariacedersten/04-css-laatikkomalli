@@ -20,20 +20,35 @@ pre,
 ul {
   margin-block-end: 1rem;
 }
-h1 {
+h1,
+h3 {
   font-weight: 700;
+  margin-block-end: 1rem;
 }
 h2 {
-}
-h3 {
+  background-color: #88aabb;
+  text-align: right;
+  padding: 1rem;
+  margin: -1rem -1rem 1rem 0;
+  text-transform: lowercase;
+  letter-spacing: 3px;
+  font-weight: 700;
 }
 p {
 }
 pre {
+  font-family: "Courier New", Courier, monospace;
+  margin-inline-start: 2rem;
 }
 ul {
+  list-style: disc;
+  margin-inline-start: 3rem;
 }
 ul li {
+}
+#toka,
+#kolmas {
+  border: black 1px solid;
 }
 
 /* section.toka kuvan muotoilu */
@@ -42,7 +57,9 @@ ul li {
   width: 10rem;
   float: left;
   background-color: white;
-  margin: -1rem 2 rem 2 rem -1rem;
+  margin: -1.1rem 2rem 2rem -1.1rem;
+  border-inline-end: black 1px solid;
+  border-block-end: black 1px solid;
 }
 .small-left-top img {
   max-width: 10rem;
@@ -63,29 +80,23 @@ ul li {
   border-inline-end: 1.5rem white solid;
 }
 .banner-left {
-  float: left;
-  width: 100px;
-  height: 70px;
-  text-align: center;
+  float: inline-start;
+  width: 50rem;
   background: white;
-  color: black;
-  border: solid black 1px;
-  border-width: 0 1px 1px 0;
-  padding: 0 10px 5px 0;
-  margin: -1px 25px 10px -1px;
+  padding: 1rem;
+  margin: -1.1rem 2rem 1rem -1.1rem;
+  border-block-end: black 1px solid;
+  border-inline-end: black 1px solid;
 }
 .banner-right {
-  float: right;
-  width: 25%;
-  text-align: left;
-  font-size: 140%;
+  float: inline-end;
+  width: 40rem;
+  font-size: 2rem;
   font-weight: bold;
   font-style: italic;
-  padding: 1em;
-  text-indent: -0.5em;
+  padding: 2rem 1em;
   background: white;
-  color: black;
-  border: solid black 1px;
-  border-width: 1px 0 1px 1px;
-  margin: 0.2em -1px 0.2em 0.5em;
+  border: black 1px solid;
+  margin: 2rem -1.1rem 2rem 2rem;
+  border-inline-end: 0;
 }
